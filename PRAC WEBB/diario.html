@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diario Personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-diario.css">
+</head>
+<body>
+    <header>
+        <button onclick="saveNote()">Guardar/ Enviar</button>
+        <h1>Diario</h1>
+        <button><a style="text-decoration: none; color: black;" href="index.html">Home</a></button>
+    </header>
+    <div class="container">
+        <textarea id="noteContent" placeholder="Escribe aquí tu entrada..."></textarea>
+        <div id="notesList"></div>
+    </div>
+    <script src="/js/save-note.js"></script>
+</body>
+</html>
