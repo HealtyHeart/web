@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tradingo - Learning is winning, and we create great winners.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KyZXEAg3QhqLMpG8r+8fhAXLRuP4VUn3f0tDkLuEO5Z5Wp7V/CU0o7sqnPvG57Z4Yb3j8Wf4Z9D/xEryjJ6WvA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles-main.css">
+    <title>Healthy Heart</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <img class="header__logo" src="/assets/Logo Healty.png" alt="Tradingo logo">
+                <button id="button-toggler" class="navbar-toggler header__navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon header__navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="diario.html">Diario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="chatbot.html">Chatbot</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/Slavickbonewall">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a id="FAQS" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"aria-expanded="false">
+                                Test
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="inicio_sesion.html">iniciar sesion</a></li>
+                                <li><a class="dropdown-item" href="registro.html">crear perfil</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="main__section">
+            <div class="main__container">
+                <h1 class="main__title-mobile">Healthy Heart</h1>
+                <h1 class="main__typing-effect" id="typing-effect"></h1>
+                <p class="main__description">Be healthy, be happy</p>
+                <a class="main__start-button" href="#">Comenzar!</a>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="services__container">
+                <h2 class="services__title">Nuestros servicios</h2>
+                <div class="services__items">
+                    <div class="services__item">
+                        <div class="services__icon">
+                            <i class="fa-solid fa-book services__icon"></i>
+                        </div>
+                        <h3 class="services__item-title">Diario personal</h3>
+                        <p class="services__item-description">Con nuestro innovador diario personal podras expresarte con libertad y compartir tu estado con profesionales siempre que lo necesites</p>
+                        <a class="services__link" href="#">Leer mas</a>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__icon">
+                            <i class="fa-brands fa-rocketchat services__icon"></i>
+                        </div>
+                        <h3 class="services__item-title">Chatbot inteligente</h3>
+                        <p class="services__item-description">Encuentra ayuda realiza tramites y acciones de manera facil y rapida con nuestro chatbot asistente virtual inteligente</p>
+                        <a class="services__link" href="#">Probar chat</a>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__icon">
+                            <i class="fa-solid fa-heart-circle-check services__icon"></i>
+                        </div>
+                        <h3 class="services__item-title">Soporte continuo</h3>
+                        <p class="services__item-description">Actualizamos constantemente y progresamos con velocidad para esto necesitamos tu ayuda muchas gracias por seguir con nosotros</p>
+                        <a class="services__link" href="#">Unirse/ Donar</a>
+                    </div>
+                </div>
+                <div class="services__testimonials">
+                    <h3 class="services__testimonials-title">Encuentranos en:</h3>
+                    <div class="services__testimonials-content">
+                        <div class="services__testimonial">
+                            <a href="https://github.com/Slavickbonewall/tdingproject" target="_blank"><i class="fa-brands fa-square-github services__social"></i></a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram services__social"></i></a>
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://x.com/X"><i class="fa-brands fa-square-twitter services__social"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script defer src="js/text.typing.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script async src="https://kit.fontawesome.com/73b1ac0733.js" crossorigin="anonymous"></script>
+    <script defer src="js/scroll.effect.js"></script>
+</body>
+
+</html>
