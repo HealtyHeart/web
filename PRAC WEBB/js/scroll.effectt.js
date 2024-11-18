@@ -1,1 +1,0 @@
-window.addEventListener("scroll",(function(){var l=document.querySelector("nav"),t=document.querySelectorAll(".nav-link");l.classList.toggle("sticky",window.scrollY),t.forEach((function(l){l.classList.toggle("text-light",window.scrollY)}))}));
